@@ -1,8 +1,18 @@
 //An Example of String Manupulation
 /*
+Program acceps argument from console.
+Works for every permutation of palindrome
+i.e civic , cciiv, iiccv and all its 120 wota family.
 
-atoi converts string to integer
+constraints : you can't use "^" as a part of string
+ */
 
+
+/*
+How does it work?
+palidrome simply means if a string is dissected into characters then each characters will have duplicate if length of string is even.
+For odd length all the characters except the one in the middle have duplicates
+so my technique is to remove the duplicates and compare the length of original array and array where duplicate characters have been omitted
 
 */
 
@@ -26,9 +36,9 @@ printf("Word = %s \n",argv[1]);
 }
 
 if(palindromeChecker(str,isEven(str))==TRUE){
-  printf("It is palindrome ");
+  printf("One of its permuation is palindrome ");
 }else{
-  printf("It is not palindrome ");
+  printf("None of its permutation is palindrome ");
 }
 }
 
