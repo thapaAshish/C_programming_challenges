@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+import sys
+text ="enter a text to rotate"
+
+if len(sys.argv) < 2:
+    print("no arguments given . i.e insert a text to rotate ")
+else:
+    text = sys.argv[1]
+rotatedText=[]
+for x in text:
+    rotatedText.append((chr(ord(x)+13) if ord(x)<97+13 else chr(ord(x)-13)))
+
+print(''.join(str(p) for p in rotatedText))

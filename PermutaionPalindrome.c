@@ -1,4 +1,4 @@
-//An Example of String Manupulation
+
 /*
 Program acceps argument from console.
 Works for every permutation of palindrome
@@ -14,6 +14,15 @@ palidrome simply means if a string is dissected into characters then each charac
 For odd length all the characters except the one in the middle have duplicates
 so my technique is to remove the duplicates and compare the length of original array and array where duplicate characters have been omitted
 
+
+Other Methods:
+find permutation of each character then check whether its reverse is equals to its original text.
+This technique will be helpful if we have to calculate no of possible palindromes within total permutation
+
+for example :
+abba.....1
+baab....2
+and so on.
 */
 
 #include <stdio.h>
