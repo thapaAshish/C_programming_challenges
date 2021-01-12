@@ -1,5 +1,6 @@
+//https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=288
+
 #include <iostream>
-#include <fstream>
 
 using namespace std;
 int size;
