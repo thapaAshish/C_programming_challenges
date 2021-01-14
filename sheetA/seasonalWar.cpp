@@ -37,9 +37,6 @@ int findWarEagles(int posX, int posY){
 }
 
 int main(){
-
-    
- 
     cin >> size;
 
     for(int i = 1 ; i <= size; i++){
